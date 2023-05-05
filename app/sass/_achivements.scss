@@ -1,0 +1,80 @@
+.achivements {
+    &__title {
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #323264;
+    }
+    &__cards img:not(:first-child) {
+            display: none;
+    }
+    &__cards {
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        img {
+            border-radius: 12px;
+        }
+    }
+    &__circles {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        border-bottom: 4px solid #E6E6F0;
+        padding-bottom: 30px;
+    }
+    &__circle:not(:first-child) {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: #24A3FF;
+        opacity: 0.2;
+        display: inline-flex;
+        margin-right: 10px;
+        border: 0;
+    }
+}
+
+.footer_ab {
+    background: #F5F5FA;
+}
+
+@media (min-width: 768px) {
+    .achivements {
+        &__cards img:not(:first-child) {
+            display: flex;
+        }
+        &__cards {
+            img {
+                padding-right: 30px;
+            }
+        }
+        &__circles button:nth-last-child(-n+3) {
+            display: none;
+          }
+          
+    }
+}
+
+@media (min-width: 1024px) {
+    .achivements {
+        img {
+            padding-right: 30px;
+            width: 100%;
+            padding-left: 30px;
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    
+}
+

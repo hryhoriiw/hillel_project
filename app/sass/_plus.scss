@@ -1,0 +1,58 @@
+.plus {
+    margin-left: 30px;
+    border-left: 4px solid #E6E6F0;
+    &__card {
+        margin-bottom: 40px;
+    }
+    &__ico {
+        padding-right: 12px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        background: $gradient;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    &__info {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #323264;
+    }
+    &__row {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .plus {
+        margin-left: 60px;
+        &__cards {
+            margin-left: -30px;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .plus {
+        width: 40%;
+        height: 40%;  
+        &__card:last-child {
+            margin-bottom: 0;
+        }
+    } 
+
+    .over_plus {
+        display: flex;
+        margin-top: 60px;
+    }
+}
+
+@media (min-width: 1400px) {
+    
+}

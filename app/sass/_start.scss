@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    font-family: "montserrat" , "Arial" , sans-serif ;
+    min-width: 375px;
+}
+
+.container {
+    padding: 0 30px;
+}
+
+.img-responsive {
+    height: 100%;
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    display: block;
+}
